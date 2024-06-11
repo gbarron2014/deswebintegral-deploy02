@@ -1,13 +1,14 @@
 {
-  "name": "gbr-shop",
+  "name": "deswebintegral-deploy02",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production --base-href =/deswebintegral-deploy02/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:gbr-shop": "node dist/gbr-shop/server/server.mjs"
+    "serve:ssr:deswebintegral-deploy02": "node dist/deswebintegral-deploy02/server/server.mjs"
   },
   "private": true,
   "dependencies": {
